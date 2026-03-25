@@ -1,0 +1,1 @@
+# spartan-determination.github.io

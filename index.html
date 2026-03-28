@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoPusher — Bulk Upload to Google Photos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f0eb;
+            color: #3d2e1e;
+            line-height: 1.6;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+        .hero { text-align: center; padding: 60px 0 40px; }
+        .hero img { width: 100px; height: auto; margin-bottom: 16px; }
+        h1 {
+            font-size: 2.4em;
+            font-weight: 700;
+            background: linear-gradient(135deg, #d9a67c, #a5663a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+        .tagline { font-size: 1.2em; color: #6b5340; margin-bottom: 32px; }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: rgba(255,255,255,0.6);
+            border: 1px solid #c9b8a5;
+            border-radius: 12px;
+            padding: 24px;
+        }
+        .feature h3 { color: #a5663a; margin-bottom: 8px; font-size: 1.05em; }
+        .feature p { font-size: 0.95em; color: #5a4530; }
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+            padding: 32px;
+            background: rgba(255,255,255,0.5);
+            border-radius: 12px;
+        }
+        .cta p { margin-bottom: 16px; font-size: 1.05em; }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #d9a67c, #a5663a);
+            color: white;
+            padding: 12px 32px;
+            border-radius: 24px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        footer {
+            text-align: center;
+            padding: 32px 0;
+            font-size: 0.85em;
+            color: #8a7560;
+            border-top: 1px solid #d4c4b0;
+            margin-top: 40px;
+        }
+        footer a { color: #a5663a; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 520px) { .features { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>PhotoPusher</h1>
+            <p class="tagline">Bulk upload your photos and videos to Google Photos from your Mac.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Bulk Uploads</h3>
+                <p>Upload thousands of photos and videos at once. PhotoPusher handles batching, retries, and progress tracking automatically.</p>
+            </div>
+            <div class="feature">
+                <h3>Smart Conversion</h3>
+                <p>Converts RAW photos and ProRes videos to Google Photos-compatible formats. EXIF metadata is preserved.</p>
+            </div>
+            <div class="feature">
+                <h3>Resume Anytime</h3>
+                <p>Uploads are tracked so you can pause, quit, or lose connection and pick up right where you left off.</p>
+            </div>
+            <div class="feature">
+                <h3>Album Organization</h3>
+                <p>Automatically create Google Photos albums based on your folder structure.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <p>Available for macOS 14 Sonoma and later.</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Armchair Caesars. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy">Privacy Policy</a> &middot;
+                <a href="terms">Terms of Service</a> &middot;
+                <a href="mailto:myspartandetermination@gmail.com">Contact</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

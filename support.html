@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — PhotoPusher</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f0eb;
+            color: #3d2e1e;
+            line-height: 1.7;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            color: #a5663a;
+            margin-bottom: 8px;
+        }
+        .subtitle { font-size: 1em; color: #8a7560; margin-bottom: 32px; }
+        h2 { font-size: 1.2em; color: #a5663a; margin: 28px 0 12px; }
+        p, li { font-size: 0.95em; color: #5a4530; margin-bottom: 12px; }
+        ul { padding-left: 24px; margin-bottom: 12px; }
+        a { color: #a5663a; }
+        .back { display: inline-block; margin-bottom: 24px; color: #a5663a; text-decoration: none; font-size: 0.9em; }
+        .back:hover { text-decoration: underline; }
+        .contact-box {
+            background: #ede5db;
+            border: 1px solid #d4c4b0;
+            border-radius: 8px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+        .contact-box a {
+            font-weight: 600;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item strong {
+            display: block;
+            color: #3d2e1e;
+            margin-bottom: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 32px 0;
+            font-size: 0.85em;
+            color: #8a7560;
+            border-top: 1px solid #d4c4b0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="./" class="back">&larr; Back to PhotoPusher</a>
+        <h1>Support</h1>
+        <p class="subtitle">We're here to help you get the most out of PhotoPusher.</p>
+
+        <div class="contact-box">
+            <p>For questions, bug reports, or feature requests, email us at:<br>
+            <a href="mailto:support@photopusher.site">support@photopusher.site</a></p>
+            <p style="margin-bottom: 0;">We typically respond within 24 hours.</p>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <strong>What formats does PhotoPusher support?</strong>
+            <p>PhotoPusher converts RAW photos from all major camera manufacturers (Canon CR2/CR3, Nikon NEF, Sony ARW, Fujifilm RAF, and more) as well as ProRes video, MOV, AVI, MKV, and other formats. Photos are converted to HEIC or JPEG, and videos to MP4 (H.264/HEVC).</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>How do I sign in to Google Photos?</strong>
+            <p>Click the "Sign In" button in the app. A browser window will open where you can sign in with your Google account and grant PhotoPusher permission to upload to your Google Photos library. PhotoPusher only requests write access — it cannot read, modify, or delete your existing photos.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Where are my files processed?</strong>
+            <p>All conversion happens locally on your Mac using hardware-accelerated processing (Metal GPU). No files are sent to any server other than Google Photos for upload. Temporary converted files are automatically deleted after upload.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Can I choose which album my photos are uploaded to?</strong>
+            <p>Yes. You can select an existing Google Photos album or create a new one directly from the app before uploading.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>What happens if an upload is interrupted?</strong>
+            <p>PhotoPusher tracks which files have been successfully uploaded. If an upload is interrupted, you can resume from where you left off — already-uploaded files will be skipped automatically.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>What are the system requirements?</strong>
+            <p>PhotoPusher requires macOS 14.0 (Sonoma) or later. A Google account is required for uploading to Google Photos.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>How do I sign out or revoke access?</strong>
+            <p>You can sign out from within the app's settings. To fully revoke access, visit your <a href="https://myaccount.google.com/permissions" target="_blank">Google Account permissions page</a> and remove PhotoPusher.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Is my data safe?</strong>
+            <p>PhotoPusher collects no personal data and has no analytics or telemetry. Your Google authentication token is stored locally with restricted file permissions. See our <a href="/privacy">Privacy Policy</a> for full details.</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Armchair Caesars. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
